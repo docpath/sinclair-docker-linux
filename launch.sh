@@ -1,0 +1,1 @@
+docker run -p 1806:1806 --hostname sinclair --name sinclair --detach -e DP_DB_HOST=<db_ip> -e DP_DB_PORT=<db_port> -e DP_DB_USER=<db_user> -e DP_DB_PASS=<db_pass> -e DP_DB_NAME=<db_name> -e DP_WORKINGDIRECTORY="/usr/local/docpath/sinclair_pack/workingdirectory/" -e DP_URLAIM=<url_aim> -e DP_APPLICATIONTOKEN=<application_token> docpath/sinclair
